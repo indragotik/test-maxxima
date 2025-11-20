@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('nama_ujian');
             $table->integer('id_mata_pelajaran');
             $table->datetime('tanggal');
-            $table->integer('nilai');
             $table->string('status');
             $table->timestamps();
         });

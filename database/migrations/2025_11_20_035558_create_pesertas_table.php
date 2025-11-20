@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('id_ujian');
             $table->string('peserta');
+            $table->integer('nilai');
             $table->integer('status');
             $table->timestamps();
         });
